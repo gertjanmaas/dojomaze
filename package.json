@@ -1,0 +1,15 @@
+{
+  "name": "dojo-maze",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.6"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --watch . node --experimental-modules index.js"
+  }
+}
